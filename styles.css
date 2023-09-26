@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.buttons button {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+#scoreDisplay {
+    position: absolute;  /* This takes the score out of the regular document flow */
+    top: 10px;           /* 10px from the top edge */
+    right: 10px;         /* 10px from the right edge */
+    font-size: 1.2em;    /* Increases the font size a bit */
+    background-color: rgba(255, 255, 255, 0.7); /* Optional: Adds a slightly transparent background for better readability */
+    padding: 5px 10px;   /* Adds some padding */
+    border-radius: 5px;  /* Optional: Rounds the corners */
+}
+
