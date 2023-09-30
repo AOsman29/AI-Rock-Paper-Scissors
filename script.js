@@ -56,3 +56,13 @@ function keepTrackOfScore() {
     const scoreDisplay = document.getElementById('scoreDisplay');
     scoreDisplay.textContent = `Player: ${playerScore} - Computer: ${computerScore}`;
 }
+document.getElementById('toggleDarkMode').addEventListener('click', function() {
+    const body = document.body;
+
+    if (body.classList.contains('dark-theme')) {
+        body.classList.remove('dark-theme');
+    } else {
+        body.classList.add('dark-theme');
+    }
+});
+
